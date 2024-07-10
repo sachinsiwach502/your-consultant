@@ -1,24 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
+import Hero from './components/Hero';
+import YourEx from './components/YourEx';
+import NonBinding from './components/NonBinding';
+import Laywer from './components/Laywer';
+import Footter from './components/Footter';
+import Target from './components/Target';
+import YourFault from './components/YourFault';
+import WillGet from './components/WillGet';
+import Mindset from './components/Mindset';
+import OurClients from './components/OurClients';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Hero />
+      <YourFault />
+      <WillGet />
+      <Target />
+      <Mindset />
+      <YourEx />
+      <Laywer />
+      <OurClients />
+      <NonBinding />
+      <Footter />
+    </>
   );
 }
 
